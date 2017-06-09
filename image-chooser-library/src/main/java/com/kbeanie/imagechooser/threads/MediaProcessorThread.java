@@ -68,8 +68,8 @@ public abstract class MediaProcessorThread extends Thread {
 
     // 500 MB Cache size
     protected final static int MAX_DIRECTORY_SIZE = 500 * 1024 * 1024;
-    // Number of days to preserve 10 days
-    protected final static int MAX_THRESHOLD_DAYS = (int) (10 * 24 * 60 * 60 * 1000);
+    // Number of days to preserve 20 days
+    protected final static int MAX_THRESHOLD_DAYS = (int) (20 * 24 * 60 * 60 * 1000);
 
     private final static int THUMBNAIL_BIG = 1;
 
